@@ -13,10 +13,8 @@ Small REST API for a veterinary clinic built with **ASP.NET Core (.NET 8)** + **
 ## Quick start
 1) Configure connection string in `appsettings.Development.json`:
 ```json
+
 { "ConnectionStrings": { "db": "Server=localhost;Database=vetcare;User=root;Password=;" } }
-
-
-### Clinics
 - `GET    /api/clinics` — list clinics
 - `GET    /api/clinics/{id}` — get clinic by id
 - `POST   /api/clinics` — create clinic
