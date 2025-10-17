@@ -1,3 +1,4 @@
+
 # VetCareAPI
 
 Small REST API for a veterinary clinic built with **ASP.NET Core (.NET 8)** + **EF Core (MySQL/Pomelo)**.
@@ -14,7 +15,6 @@ Small REST API for a veterinary clinic built with **ASP.NET Core (.NET 8)** + **
 ```json
 { "ConnectionStrings": { "db": "Server=localhost;Database=vetcare;User=root;Password=;" } }
 
-## Endpoints
 
 ### Clinics
 - `GET    /api/clinics` — list clinics
